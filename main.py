@@ -481,7 +481,9 @@ def plot_gantt_and_animate(sim: Simulator, title: str = "RT Scheduling Gantt", p
         row = task_indices.get(tid, None)
         if row is None:
             continue
-        for s, e, *_ in segs:
+        for (_, s, e) in segs: 
+
+            print("DEBUG segs =", segs)
             rect = ax.barh(row + 0.1, e - s, left=s, height=0.8, align='center', color=color_map.get(tid, 'grey'), edgecolor='black')
             bars.append(rect)
 
