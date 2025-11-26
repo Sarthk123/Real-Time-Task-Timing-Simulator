@@ -1,5 +1,5 @@
 Project Proposal: Real-Time Task Timing Visualizer (Simulator)
-By- Dhruv Belawat and Saarthak Gupta
+By- Dhruv Belawat and Sarthak Gupta
 1. Goal
 Build a simulator that models real-time task scheduling on a CPU. The simulator will run task traces
 (periodic, aperiodic, interrupts) and dynamically visualize scheduling decisions, deadlines, and
